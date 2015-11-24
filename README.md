@@ -17,48 +17,59 @@
 
 ##Primitives comportementales virtuelles
 **Observer** <img src="http://www.marieclaire.fr/data/fichiers/maquillage-yeux-2.jpg" height=50 />
+
 L’utilisateur devra être capable de voir son propre corps, en particulier ses bras et ses mains. Des objets avec lesquels interagir, comme des objets à saisir ou des obstacles, devront aussi être visibles.
 
 **Mouvoir son corps virtuel** <img src="http://previewcf.turbosquid.com/Preview/2014/05/24__00_55_57/armrenderindirect%20copy.jpg0c437ed6-b83b-4b52-a912-cd4a07aee320Larger.jpg" height=50 />
+
 L’utilisateur pourra au moins déplacer ses bras, épaule incluse, et sa tête dans le monde virtuel.
 
 **Saisir des objets** <img src="http://previewcf.turbosquid.com/Preview/2014/05/26__09_07_36/Hand_Primary.jpga9944262-3e2a-4208-916e-2853f4d1102cLarger.jpg" height=50 />
+
 Une tâche courante réalisée avec les bras est la saisie d’objets. L’utilisateur devra donc tenter de saisir et déplacer des objets de formes différentes, ce qui nécessitera des mouvements de préhension différents. L’accessibilité des objets sera modifiée par des obstacles.
 
 **Suivre un mouvement enregistré** <img src="http://fe867b.medialib.glogster.com/media/0c/0c62b012aac10b1cb0d1268317fd6d883205eff7af1d83bf3ec58ef5c2fa8529/follow-us.gif" height=50 />
+
 L’utilisateur pourra être amené à suivre un mouvement enregistré représenté sous la forme d’un bras transparent.
 
 **Agir** <img src="http://i1.wp.com/www.laoujetemmenerai.net/wp-content/2014/06/bonhomme_puzzle1.jpg" height=50 />
+
 L’utilisateur pourra bouger ses bras de manière naturelle, les mouvements seront gérés par plusieurs centrales inertielles pour récupérer des points orientés dans l’espace et de capteurs EMG pour connaître le mouvement les doigts et l'intensité de la force appliquée.
 Il pourra donc agir sur l’environnement directement en contrôlant un avatar virtuel à l’aide de ces capteurs.
 
 **Communiquer** <img src="http://rosny.pcf.fr/sites/default/files/imagecache/image/46454_bonhomme_appel.jpg" height=50 />
+
 L’utilisateur pourra interagir avec l’interface de l’application. De plus elle enregistrera ses commentaires et réaction pour analyse ultérieure.
 
 
 
 ##Solution d’interfaçage
 **Casque de réalité virtuel** <img src="http://www.vrheadsets3d.com/wp-content/uploads/2014/10/Oculus-Rift-DK2.jpg" height=50 />
+
 *Avantages:* Immerger totalement l’utilisateur dans le monde virtuel, capter les mouvements de la tête, interfacage simple avec Unity à l’aide de Middle VR
 
 *Limitations:* Champ de vision faible, besoin d’un ordinateur+câble pour l’utiliser.
 
 **Centrales inertielles** <img src="http://www.x-io.co.uk/wordpress/wp-content/uploads/2014/03/x-IMU-Board-Isometric.jpg" height=50 />
+
 *Avantages:* Permet de capter un point dans l’espace et l’orientation, très précis et réactif, le magnétomètre assure qu’il n’y ait pas de dérive des mesures
 
 *Limitations:* N’est pas compatible avec Middle VR donc il sera nécessaire de réaliser un script de traitement des mesures.
 
 **Capteur EMG** <img src="http://www.robotshop.com/media/files/images2/seeedstudio-grove-emg-detector-5-large.jpg" height=50 />
+
 *Avantages:* Capteur de surface, permet la reconnaissance des mouvements de la main, des doigts et du poignet. Utilisation probable d’un capteur Myo facile à placer sur l’avant bras de l’utilisateur.
 
 *Limitations:* Nécessite une phase de calibration importante pour pouvoir détecter de manière correcte les mouvements.
 
 **Capteur EEG** <img src="http://img.medicalexpo.fr/images_me/photo-m2/casque-electroencephalographie-128-canaux-67901-98853.jpg" height=50 />
+
 *Avantages:* Permet d'identifier les intentions de bouger la main ou le bras, même si le membre est manquant.
 
 *Limitations:* Complexité des signaux, et difficulté de traitement. Signaux peuvent être différents selon les individus.
 
 **Myo band** <img src="https://hackwestern.com/img/showcase/myo.png" height=50 />
+
 *Avantages:*
 
 *Limitations:*
