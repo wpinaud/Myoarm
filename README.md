@@ -1,12 +1,12 @@
 #Dossier de préconception du MyoArm
-<center>Une équipe du CHU de Nantes souhaite développer une application permettant de soigner le syndrome du membre fantôme en pilotant un corps virtuel à l’aide de l’électroencéphalographie et de l’électronographie.
+<center>Cette application de simulation de bras et de main humaine est développée en partenariat avec une équipe du CHU de Nantes. Elle souhaite avoir à disposition une application permettant de soigner le syndrome du membre fantôme en pilotant un corps virtuel à l’aide d’électroencéphalographie et d’électromyographie.
 
 <center>
 <img src="http://fr.cdn.v5.futura-sciences.com/builds/images/rte/RTEmagicC_myoarm.jpg" height=150 /> + <img src="https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/s320x320/e35/12230863_845228932242883_1474465373_n.jpg" height=150 /> + <img src="http://actualitesjeuxvideo.fr/wp-content/uploads/2013/03/casque-EEG.jpg" height=150 />
 
 ##Description de l’application
 ###Objectifs de l’application:
->0. **Traitement du syndrome du membre fantôme**
+>0. **Traitement du syndrome du membre fantôme** (Objectif principal)
 0. Rééducation physique des patients ayant subit une intervention ou un traumatisme de leur bras
 
 ###Objectifs à réaliser par l’utilisateur:
@@ -14,6 +14,7 @@
 0. Bouger ses mains naturellement (poignets + doigts)
 0. Attraper des objets de différentes formes
 0. Suivre des mouvements pré-enregistrés
+1. Voir son bras se déplacer de manière fluide
 
 ##Primitives comportementales virtuelles
 **Observer** <img src="http://www.marieclaire.fr/data/fichiers/maquillage-yeux-2.jpg" height=50 />
@@ -70,10 +71,11 @@ L’utilisateur pourra interagir avec l’interface de l’application. De plus 
 
 **Myo band** <img src="https://hackwestern.com/img/showcase/myo.png" height=50 />
 
-*Avantages:*
+Un bracelet doté d'une centrale inertielle, d'un gyroscope et de huit électrodes EMG. Le bracelet peut être placé sur le bras ou l'avant bras.
 
-*Limitations:*
+*Avantages:* Possède un sdk ce qui simplifiera l'étude des signaux.
 
+*Limitations:* L'utilisateur doit avoir un bras sur lequel viendra se positionner le capteur. Ce capteur ne pourra pas s'utiliser sur les patients ayant perdu leur membre.
 
 
 ##Les aides logiciels comportementales
@@ -97,7 +99,7 @@ Précision des positions des mains et des gestes de l’opérateur, marges d’e
 **→ Avez vous réussi à manipuler des objets ?**
 Latence visuelle, précision de la détection des positions, clarté des instructions orales, utilité des ALC.
 
-**→ Avez vous améliorer vos compétences en manipulation avec ce simulateur ? **
+**→ Avez vous améliorer vos compétences en manipulation avec ce simulateur ?**
 Efficacité des méthodes utilisées pour la rééducation
 						
 **→ De quelles manipulations vous souvenez vous ?**
