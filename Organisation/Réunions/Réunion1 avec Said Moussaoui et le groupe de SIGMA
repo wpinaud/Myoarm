@@ -1,0 +1,40 @@
+personne qui ont eu un AVC
+Rééducation fonctionnelle
+Meilleure plasticité cerebrale - On peut faire de la rééducation - entrainer une autre zone du cerveau pour bouger un membre
+
+a court terme aider les personne qui ont subit un AVC
+le membre existe déjà
+la personne arrive a faire le mouvement mais difficilement
+
+- Définir les différents sénarios avec les neurochirurgiens
+
+attraper des objets deriere des obstacles
+avec le bras dans différentes positions
++ motion capture
+
++ interface pour communiquer avec l'utilisateur
+
+--> donner les consignes des mouvements à réaliser
+-> Faire une classification
+-> Faire interface de calibration
+
+> rester sur des mouvements tres simples
+
+Ils ont deux casques émotives..
+Mais on va partir sur de l'EMG pour avoir des réultats plus rapidement.
+
+###input: 
+
+PILOTAGE d'un avatar
+Machine à états - meme pour les rotations
+
+###Capteurs:
+
+1 myo
++ capteur de éric le carpentier
+
+Casque émotive : stéphane lobri
+
+Bibliographie sur les méthodes pour réaliser des mouvements ?
+
+ajouter un score - systeme de récompense

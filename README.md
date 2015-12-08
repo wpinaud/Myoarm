@@ -1,5 +1,9 @@
 #Dossier de préconception du MyoArm
+<<<<<<< Updated upstream
 <center>Cette application de simulation de bras et de main humaine est développée en partenariat avec une équipe du CHU de Nantes. Elle souhaite avoir à disposition une application permettant de soigner le syndrome du membre fantôme en pilotant un corps virtuel à l’aide d’électroencéphalographie et d’électromyographie.
+=======
+<center>Une équipe du CHU de Nantes souhaite développer une application permettant de soigner le syndrome du membre fantôme en pilotant un corps virtuel à l’aide de l’électroencéphalographie et de l’électronographie.
+>>>>>>> Stashed changes
 
 <center>
 <img src="http://fr.cdn.v5.futura-sciences.com/builds/images/rte/RTEmagicC_myoarm.jpg" height=150 /> + <img src="https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/s320x320/e35/12230863_845228932242883_1474465373_n.jpg" height=150 /> + <img src="http://actualitesjeuxvideo.fr/wp-content/uploads/2013/03/casque-EEG.jpg" height=150 />
