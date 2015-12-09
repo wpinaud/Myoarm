@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{9D9443F6-B945-8C7F-E079-97A6AC925A79}") = "CarboardFirstProject", "Assembly-CSharp-firstpass.csproj", "{B77F539D-4922-8C6E-B599-F68A43BFD4AD}"
+EndProject
 Project("{9D9443F6-B945-8C7F-E079-97A6AC925A79}") = "CarboardFirstProject", "Assembly-CSharp.csproj", "{DAB82182-7A58-14B0-8373-4503CB2A2EC4}"
 EndProject
 Project("{9D9443F6-B945-8C7F-E079-97A6AC925A79}") = "CarboardFirstProject", "Assembly-CSharp-Editor.csproj", "{53C71101-B41D-3D70-517D-9E6FF7751251}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B77F539D-4922-8C6E-B599-F68A43BFD4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77F539D-4922-8C6E-B599-F68A43BFD4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77F539D-4922-8C6E-B599-F68A43BFD4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77F539D-4922-8C6E-B599-F68A43BFD4AD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DAB82182-7A58-14B0-8373-4503CB2A2EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DAB82182-7A58-14B0-8373-4503CB2A2EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAB82182-7A58-14B0-8373-4503CB2A2EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-						GlobalSection(MonoDevelopProperties) = preSolution
+												GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -42,5 +48,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal
